@@ -1,5 +1,6 @@
 import React from "react";
-import Card from './Card';
+import CardList from './CardList';
+
 class App extends React.Component {
  constructor(props) {
  super(props);
@@ -11,7 +12,7 @@ class App extends React.Component {
  <div className="header">
  {this.props.title}
  </div>
- <Card />
+ <CardList />
  </div>
  );
  }

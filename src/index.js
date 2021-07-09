@@ -4,4 +4,3 @@ ReactDOM.hydrate(
  <App title="The GitHub Cards App"/>,
  document.getElementById('root'),
 );
-export default index;
